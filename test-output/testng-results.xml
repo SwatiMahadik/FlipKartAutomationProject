@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="2" passed="2">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="47425" started-at="2020-08-20T19:00:12Z" finished-at="2020-08-20T19:01:00Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="47425" started-at="2020-08-20T19:00:12Z" finished-at="2020-08-20T19:01:00Z">
+      <class name="com.flipkart.testcases.HomePageTest">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.flipkart.testcases.HomePageTest@6ea6d14e]" name="setUp" is-config="true" duration-ms="22255" started-at="2020-08-21T00:30:12Z" finished-at="2020-08-21T00:30:34Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="verifyHomePageTitleTest()[pri:0, instance:com.flipkart.testcases.HomePageTest@6ea6d14e]" name="verifyHomePageTitleTest" duration-ms="66" started-at="2020-08-21T00:30:34Z" finished-at="2020-08-21T00:30:34Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyHomePageTitleTest -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.flipkart.testcases.HomePageTest@6ea6d14e]" name="tearDown" is-config="true" duration-ms="1204" started-at="2020-08-21T00:30:34Z" finished-at="2020-08-21T00:30:36Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.flipkart.testcases.HomePageTest@6ea6d14e]" name="setUp" is-config="true" duration-ms="17067" started-at="2020-08-21T00:30:36Z" finished-at="2020-08-21T00:30:53Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="verifySearchProductTest()[pri:0, instance:com.flipkart.testcases.HomePageTest@6ea6d14e]" name="verifySearchProductTest" duration-ms="5577" started-at="2020-08-21T00:30:53Z" finished-at="2020-08-21T00:30:58Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifySearchProductTest -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.flipkart.testcases.HomePageTest@6ea6d14e]" name="tearDown" is-config="true" duration-ms="1212" started-at="2020-08-21T00:30:58Z" finished-at="2020-08-21T00:31:00Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.flipkart.testcases.HomePageTest -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
