@@ -1,33 +1,89 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" total="2" passed="2">
+<testng-results skipped="0" failed="1" total="1" passed="0">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="47425" started-at="2020-08-20T19:00:12Z" finished-at="2020-08-20T19:01:00Z">
+  <suite name="Default suite" duration-ms="109938" started-at="2020-08-23T20:09:37Z" finished-at="2020-08-23T20:11:27Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="47425" started-at="2020-08-20T19:00:12Z" finished-at="2020-08-20T19:01:00Z">
+    <test name="Default test" duration-ms="109938" started-at="2020-08-23T20:09:37Z" finished-at="2020-08-23T20:11:27Z">
       <class name="com.flipkart.testcases.HomePageTest">
-        <test-method status="PASS" signature="setUp()[pri:0, instance:com.flipkart.testcases.HomePageTest@6ea6d14e]" name="setUp" is-config="true" duration-ms="22255" started-at="2020-08-21T00:30:12Z" finished-at="2020-08-21T00:30:34Z">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.flipkart.testcases.HomePageTest@7d417077]" name="setUp" is-config="true" duration-ms="25742" started-at="2020-08-24T01:39:37Z" finished-at="2020-08-24T01:40:03Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method status="PASS" signature="verifyHomePageTitleTest()[pri:0, instance:com.flipkart.testcases.HomePageTest@6ea6d14e]" name="verifyHomePageTitleTest" duration-ms="66" started-at="2020-08-21T00:30:34Z" finished-at="2020-08-21T00:30:34Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- verifyHomePageTitleTest -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.flipkart.testcases.HomePageTest@6ea6d14e]" name="tearDown" is-config="true" duration-ms="1204" started-at="2020-08-21T00:30:34Z" finished-at="2020-08-21T00:30:36Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- tearDown -->
-        <test-method status="PASS" signature="setUp()[pri:0, instance:com.flipkart.testcases.HomePageTest@6ea6d14e]" name="setUp" is-config="true" duration-ms="17067" started-at="2020-08-21T00:30:36Z" finished-at="2020-08-21T00:30:53Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setUp -->
-        <test-method status="PASS" signature="verifySearchProductTest()[pri:0, instance:com.flipkart.testcases.HomePageTest@6ea6d14e]" name="verifySearchProductTest" duration-ms="5577" started-at="2020-08-21T00:30:53Z" finished-at="2020-08-21T00:30:58Z">
+        <test-method status="FAIL" signature="verifySearchProductTest()[pri:2, instance:com.flipkart.testcases.HomePageTest@7d417077]" name="verifySearchProductTest" duration-ms="82757" started-at="2020-08-24T01:40:03Z" finished-at="2020-08-24T01:41:25Z">
+          <exception class="org.openqa.selenium.NoSuchElementException">
+            <message>
+              <![CDATA[no such element: Unable to locate element: {"method":"xpath","selector":"//button[@class='FoDyGO']"}
+  (Session info: chrome=84.0.4147.135)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-U00JE1A', ip: '192.168.43.11', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_201'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 84.0.4147.135, chrome: {chromedriverVersion: 83.0.4103.39 (ccbf011cb2d2b..., userDataDir: C:\Users\Sai\AppData\Local\...}, goog:chromeOptions: {debuggerAddress: localhost:54820}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: 3a971bb305433044d6270882f9261436
+*** Element info: {Using=xpath, value=//button[@class='FoDyGO']}]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//button[@class='FoDyGO']"}
+  (Session info: chrome=84.0.4147.135)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-U00JE1A', ip: '192.168.43.11', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_201'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 84.0.4147.135, chrome: {chromedriverVersion: 83.0.4103.39 (ccbf011cb2d2b..., userDataDir: C:\Users\Sai\AppData\Local\...}, goog:chromeOptions: {debuggerAddress: localhost:54820}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: 3a971bb305433044d6270882f9261436
+*** Element info: {Using=xpath, value=//button[@class='FoDyGO']}
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
+	at java.lang.reflect.Constructor.newInstance(Unknown Source)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:428)
+	at org.openqa.selenium.By$ByXPath.findElement(By.java:353)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
+	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
+	at com.sun.proxy.$Proxy8.isDisplayed(Unknown Source)
+	at com.flipkart.pages.HomePage.placeOrder(HomePage.java:203)
+	at com.flipkart.testcases.HomePageTest.verifySearchProductTest(HomePageTest.java:47)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:86)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:645)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:822)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1130)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:129)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:112)
+	at org.testng.TestRunner.privateRun(TestRunner.java:782)
+	at org.testng.TestRunner.run(TestRunner.java:632)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:366)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:361)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:319)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:268)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1244)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1169)
+	at org.testng.TestNG.run(TestNG.java:1064)
+	at org.testng.remote.RemoteTestNG.run(RemoteTestNG.java:113)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:206)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:177)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.NoSuchElementException -->
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifySearchProductTest -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.flipkart.testcases.HomePageTest@6ea6d14e]" name="tearDown" is-config="true" duration-ms="1212" started-at="2020-08-21T00:30:58Z" finished-at="2020-08-21T00:31:00Z">
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.flipkart.testcases.HomePageTest@7d417077]" name="tearDown" is-config="true" duration-ms="1343" started-at="2020-08-24T01:41:25Z" finished-at="2020-08-24T01:41:27Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->

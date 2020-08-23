@@ -6,4 +6,15 @@
       <class name="com.flipkart.testcases.HomePageTest"/>
     </classes>
   </test> <!-- Default test -->
+  <test name="Default test(failed)">
+    <classes>
+      <class name="com.flipkart.testcases.HomePageTest">
+        <methods>
+          <include name="verifySearchProductTest"/>
+          <include name="setUp"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- com.flipkart.testcases.HomePageTest -->
+    </classes>
+  </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

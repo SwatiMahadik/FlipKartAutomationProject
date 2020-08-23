@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [FlipkartAutomation Test Suite]" parallel="none">
+  <test name="Flipkart Test cases">
+    <classes>
+      <class name="com.flipkart.testcases.LoginPageTest"/>
+      <class name="com.flipkart.testcases.HomePageTest"/>
+    </classes>
+  </test> <!-- Flipkart Test cases -->
+  <test name="Flipkart Test cases(failed)" parallel="none">
+    <classes>
+      <class name="com.flipkart.testcases.LoginPageTest">
+        <methods>
+          <include name="setUp"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- com.flipkart.testcases.LoginPageTest -->
+      <class name="com.flipkart.testcases.HomePageTest">
+        <methods>
+          <include name="verifySearchProductTest"/>
+          <include name="setUp"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- com.flipkart.testcases.HomePageTest -->
+    </classes>
+  </test> <!-- Flipkart Test cases(failed) -->
+</suite> <!-- Failed suite [FlipkartAutomation Test Suite] -->
