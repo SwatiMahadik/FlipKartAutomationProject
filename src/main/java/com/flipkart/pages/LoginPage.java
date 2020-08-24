@@ -24,6 +24,7 @@ public class LoginPage extends TestBase {
 		PageFactory.initElements(driver, this);
 	}
 
+	//login to flipkart
 	public HomePage loginToFlipKart(String mob, String pass) throws InterruptedException {
 
 		mobileNum.sendKeys(mob);
@@ -34,12 +35,13 @@ public class LoginPage extends TestBase {
 		System.out.println("Clicked on login button");
 		return new HomePage();
 	}
-
+    //verify logo
 	public boolean validateLogo() {
 		return logo.isDisplayed();
 
 	}
 
+	//verify title
 	public String getFlipKartTitle() {
 		return driver.getTitle();
 	}

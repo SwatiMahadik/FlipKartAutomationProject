@@ -95,10 +95,12 @@ public class HomePage extends TestBase {
 		PageFactory.initElements(driver, this);
 	}
 
+	//verify title
 	public String validateTitle() {
 		return driver.getTitle();
 	}
 
+	//method to search for product and add to cart
 	public void searchProduct(String productname) throws InterruptedException {
 		searchProduct.sendKeys(productname);
 		searchIcon.click();
@@ -138,6 +140,7 @@ public class HomePage extends TestBase {
 		}
 	}
 
+	//method to place order
 	public void placeOrder() throws InterruptedException {
 		clickOnCart.click();
 		System.out.println("Clicked on cart");
@@ -169,8 +172,10 @@ public class HomePage extends TestBase {
 		} catch (Exception e) {
 
 		}
-		if (productPrice1.equals(productPrice1)) {
-			System.out.println("Price Matched");
+		
+		if (productPrice1.equals(productPrice1)) 
+		{
+			System.out.println("Product Price while search and Product price while checkout is matched");
 		}
 		buyNow.click();
 		System.out.println("Clicked on buy now button");
@@ -183,6 +188,7 @@ public class HomePage extends TestBase {
 		}
 	}
 
+	//method to add new address for delivery
 	public void addNewAddress() throws InterruptedException {
 		addNewAddress.click();
 		firstName.sendKeys("Swati11");
@@ -196,6 +202,7 @@ public class HomePage extends TestBase {
 		System.out.println("added new address");
 	}
 
+	//logout from flipkart
 	public void logout() throws InterruptedException {
 		Actions action = new Actions(driver);
 		action.moveToElement(myAccountBtn).build().perform();

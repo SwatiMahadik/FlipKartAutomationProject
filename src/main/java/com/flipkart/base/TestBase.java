@@ -27,12 +27,12 @@ public class TestBase {
 		} catch (FileNotFoundException e) {
 			e.printStackTrace();
 		} catch (IOException e) {
-			// TODO Auto-generated catch block
+			
 			e.printStackTrace();
 		}
 
 	}
-
+     //method to initialize the driver    
 	public static void intialization() {
 		String browsername = prop.getProperty("browser");
 		if (browsername.equalsIgnoreCase("chrome")) {
